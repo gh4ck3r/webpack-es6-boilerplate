@@ -7,6 +7,7 @@ module.exports = Merge(CommonConfig, {
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
+  devtool: '#inline-source-map',
   devServer: {
     publicPath: '/',
     port: 9000,
